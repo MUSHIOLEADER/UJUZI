@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Navpage{
+    background-color: rgb(4, 196, 4);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    
+
+}
+.firstdiv{
+    color: #fff;
+    position: relative;
+    left: 160px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.firstdiv :hover{
+    cursor: pointer;
+    color: aqua;
+    box-shadow: white;
+}
+.seconddiv{
+    display: flex;
+    justify-content: space-between;
+}
+.seconddiv a{
+    padding: 20px 50px;
+    margin-left: 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    
+    border-radius: 30%;
+    width: 70px;
+    height: 10%;
+   
+}
+.seconddiv a:hover{
+    text-decoration: underline;
+    color: aqua;
+    cursor: pointer;
+}
+.div2{
+    
+    display: flex;
+    flex-direction: row;
+    color:rgb(4, 196, 4); 
+    
+}
+.div2 .div4{
+    position: relative;
+    right: -60px;
+    bottom: -90px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.div4 h2{
+    position: relative;
+    left: -40px;
+    border-bottom: 1px solid rgba(68, 53, 53, 0.196);
+    
+}
+.div4 p{
+    position: relative;
+    top: 10px;
+    left: -30px;
+
+}
+.div2 h3{
+    text-transform: uppercase;
+    padding: 90px 60px;
+    word-spacing: 3px;
+    
+    
+
+}
+div .div4 button{
+    position: relative;
+    top: 30px;
+    right: 30px;
+    color:#fff;
+    background-color:rgb(4, 196, 4); 
+    padding: 10px 40px;
+    border-radius: 40px;
+}
+.div2 img{
+    width: 100%;
+    height: 420px;
+    position: relative;
+    top: 15px;
+    
+}
+.footerdiv{
+   
+    height: 100%;
+    background-color:rgb(4, 196, 4); 
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+    position: relative;
+    top: 0px;
+   
+    padding: 50px 60px;
+    text-transform: capitalize;
+    
+}
+.footerdiv :hover{
+    text-decoration: underline;
+    color: aqua;
+    box-shadow: 0px 2px 1px rgba(255, 255, 255, 0.786);
+}
+
