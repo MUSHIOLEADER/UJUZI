@@ -19,6 +19,13 @@
     text-transform: capitalize;
     font-weight: 600;
 }
+.firstdiv .para1{
+    position: relative;
+    right: 120px;
+    
+    height: 37px;
+    width: 120px;
+}
 .firstdiv :hover{
     cursor: pointer;
     color: aqua;
@@ -115,4 +122,186 @@ div .div4 button{
     color: aqua;
     box-shadow: 0px 2px 1px rgba(255, 255, 255, 0.786);
 }
+
+.agent{
+    display: flex;
+    flex-direction: row;
+}
+.agent1 {
+    display: grid;
+}
+.agent1 input{
+    background: none;
+    border: none;
+    font-weight: 800;
+    color: #fff;
+    background-color:rgb(4, 196, 4);  
+    height: 70px; 
+    width: 400px;
+    margin-right: 80%;
+    box-shadow: 0px 2px 2px 4px rgba(237, 234, 243, 0.786),
+                0px 2px 2px 4px rgba(255, 255, 255, 0.786);
+}
+.agent1 input[value='Dashboard']:hover{
+    box-shadow: 10px 20px 20px 10px rgb(96, 195, 96),
+                   16px 2px 16px 16px rgb(4, 196, 4); 
+    cursor: pointer;
+    background-color: white;
+    color: rgb(62, 193, 6);
+    font-weight: bolder;
+    height: 80px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.agent1 input[value='Tracking']:hover{
+    height: 80px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 20px 20px 10px rgb(96, 195, 96),
+                   16px 2px 16px 16px rgb(4, 196, 4); 
+    cursor: pointer;
+    background-color: white;
+    color: rgb(62, 193, 6);
+    font-weight: bolder;
+    
+    
+}
+.agent1 input[value='Historique']:hover{
+    height: 80px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 20px 20px 10px rgb(96, 195, 96),
+                   16px 2px 16px 16px rgb(4, 196, 4); 
+    cursor: pointer;
+    background-color: white;
+    color: rgb(62, 193, 6);
+    font-weight: bolder;
+    
+    
+}
+.agent1 input[value='parametre']:hover{
+    height: 80px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 20px 20px 10px rgb(96, 195, 96),
+                   16px 2px 16px 16px rgb(4, 196, 4); 
+    cursor: pointer;
+    background-color: white;
+    color: rgb(62, 193, 6);
+    font-weight: bolder;
+    
+    
+}
+
+.agent1 input[value='docs']:hover{
+    height: 80px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 20px 20px 10px rgb(96, 195, 96),
+                   16px 2px 16px 16px rgb(4, 196, 4); 
+    cursor: pointer;
+    background-color: white;
+    color: rgb(62, 193, 6);
+    font-weight: bolder;
+    
+    
+}
+
+.agent1 input[value='contactez-nous']:hover{
+    height: 80px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 20px 20px 10px rgb(96, 195, 96),
+                   16px 2px 16px 16px rgb(4, 196, 4); 
+    cursor: pointer;
+    background-color: white;
+    color: rgb(62, 193, 6);
+    font-weight: bolder;
+    
+    
+}
+.agent img{
+    width: 800px;
+    height: 430px;
+}
+.general{
+    display: none;
+
+    margin-left: 40px;
+    position: relative;
+    right: -30px;
+    top: 60px;
+    color: #fff;
+    background-color:rgb(62, 193, 6); 
+    height: 300px;
+    width: 500px;
+    border-radius: 16px;    
+
+}
+.general .expedition{
+    margin-right: 70px;
+    margin-left: 70px;
+    padding-top: 20px;
+    padding-right: 250px;
+    padding-left: -20px;
+    display: grid;
+}
+.general .expedition h1{
+    position: relative;
+    right: 30px;
+}
+.general .expedition .malo{
+    background-color: #fff;
+    border-radius: 16px;
+    display: grid;
+    color: green;
+    position: relative;
+    bottom: 80px;
+    right: 30px;
+    font-weight: 600;
+}
+.general .expedition .malo p{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.general .livraison{
+    display: grid;
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    font-weight: 600;
+}
+.general .livraison .malo2{
+    display: grid;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 16px;
+    height: 140px;
+    width: 150px;
+    display: grid;
+    color: green;
+    position: relative;
+    top: 20px;
+}
+
+.general .livraison .malo2 :first-child,.general .livraison .malo2:last-child{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.general .livraison .malo2 :first-child{
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+.general .livraison .malo2:last-child{
+    position: relative;
+    bottom: 6px;
+
+}
+
+
+
+
 
