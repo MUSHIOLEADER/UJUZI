@@ -221,6 +221,60 @@ div .div4 button{
     
     
 }
+.agent1 input[value='historique']:hover{
+    height: 80px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 20px 20px 10px rgb(96, 195, 96),
+                   16px 2px 16px 16px rgb(4, 196, 4); 
+    cursor: pointer;
+    background-color: white;
+    color: rgb(62, 193, 6);
+    font-weight: bolder;
+    
+    
+}
+.agent1 input[value='notifications']:hover{
+    height: 80px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 20px 20px 10px rgb(96, 195, 96),
+                   16px 2px 16px 16px rgb(4, 196, 4); 
+    cursor: pointer;
+    background-color: white;
+    color: rgb(62, 193, 6);
+    font-weight: bolder;
+    
+    
+}
+.agent1 input[value='Enregistrement expediteur']:hover{
+    height: 80px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 20px 20px 10px rgb(96, 195, 96),
+                   16px 2px 16px 16px rgb(4, 196, 4); 
+    cursor: pointer;
+    background-color: white;
+    color: rgb(62, 193, 6);
+    font-weight: bolder;
+    
+    
+}
+.agent1 input[value='Mis a jour du vol']:hover{
+    height: 80px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 10px 20px 20px 10px rgb(96, 195, 96),
+                   16px 2px 16px 16px rgb(4, 196, 4); 
+    cursor: pointer;
+    background-color: white;
+    color: rgb(62, 193, 6);
+    font-weight: bolder;
+    
+    
+}
+
+
 .agent img{
     width: 800px;
     height: 430px;
@@ -301,7 +355,65 @@ div .div4 button{
 
 }
 
+.updatevol{
+    display: none;/*grid*/
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgb(62, 193, 6);
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: 100px;
+    top: 80px;
+    
+}
+.updatevol p{
+    position: relative;
+    top: 25px;
+    left: 20px;  
+}
+table {
+    
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 850px;
+    height: 450px;
+  }
+  th,.mobile2{
+      color: rgb(62, 193, 6) !important;
+  }
+  
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+    background-color: rgb(62, 193, 6) !important;
+    color: white;
+  }
 
 
-
-
+.tablearray{
+    display: none;
+}
+.record{
+    visibility: hidden;
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgb(62, 193, 6);
+    height: 200px;
+    width: 400px;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+.record p{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    margin-bottom: 20px;
+}
